@@ -59,7 +59,6 @@ app.get('/', (req, res) => {
 app.post('/calcular', (req, res) => {
     const { n1, n2, n3, n4 } = req.body;
     
-    // Aseguramos que los valores sean números antes de calcular
     const resultado = calcularPonderado(
         parseFloat(n1) || 0, 
         parseFloat(n2) || 0, 
