@@ -1,1 +1,1 @@
-npm test && npx eslint .
+npm test && npx eslint . && npm audit --audit-level=high
